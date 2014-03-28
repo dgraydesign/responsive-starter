@@ -20,5 +20,5 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-	<?php edit_post_link( __( 'Edit', 'dgraystarter' ), '<footer class="entry-footer"><span class="edit-link">', '</span></footer>' ); ?>
+	<?php edit_post_link( __( 'Edit', 'dgraystarter' ), '<div class="entry-footer"><span class="edit-link">', '</span></div>' ); ?>
 </article><!-- #post-## -->

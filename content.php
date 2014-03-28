@@ -31,7 +31,7 @@
 	</div><!-- .entry-content -->
 	<?php endif; ?>
 
-	<footer class="entry-footer">
+	<div class="entry-footer">
 		<?php if ( 'post' == get_post_type() ) : // Hide category and tag text for pages on Search ?>
 			<?php
 				/* translators: used between list items, there is a space after the comma */
@@ -59,5 +59,5 @@
 		<?php endif; ?>
 
 		<?php edit_post_link( __( 'Edit', 'dgraystarter' ), '<span class="edit-link">', '</span>' ); ?>
-	</footer><!-- .entry-footer -->
+	</div><!-- .entry-footer -->
 </article><!-- #post-## -->
