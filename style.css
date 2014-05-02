@@ -620,7 +620,6 @@ object {
 13.0 Gridiculous
 -------------------------------------------------------------- */
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
-body{font-size:100%;line-height:1.6875}
 .grid{margin:0 auto;max-width:1200px;width:100%}
 img{max-width:100%;height:auto;display:block;margin-left:auto;margin-right:auto}
 .wfull{width:100%;max-width:100%}
