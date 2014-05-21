@@ -11,6 +11,7 @@ The modifications:
 * enabled post thumbnails (in functions.php)
 * enabled custom header image (in functions.php)
 * added html5 shiv for IE8 support (enqueued in functions.php)
+* added gallery styles (from Twenty Fourteen theme) for WordPress galleries
 
 More about the theme from _s documentation:
 
