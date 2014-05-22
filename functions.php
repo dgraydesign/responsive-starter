@@ -130,3 +130,8 @@ function add_ie_html5_shim () {
     echo '<![endif]-->';
 }
 add_action('wp_head', 'add_ie_html5_shim');
+
+/**
+ * Support for editor styles
+ */
+ add_editor_style();
