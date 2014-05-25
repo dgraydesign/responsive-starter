@@ -466,6 +466,16 @@ a:active {
 	cursor: pointer;
 	display: none;
 }
+.dashicons-menu { 
+	content: "\f333";
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	padding-top: 5px;
+	font-size: 30px;
+	margin-right: 5px;
+	margin-left: 20px;
+	line-height: .8;
+}
 @media screen and (max-width: 600px) {
 	.menu-toggle,
 	.main-navigation.toggled .nav-menu {

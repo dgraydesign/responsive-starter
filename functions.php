@@ -135,3 +135,9 @@ add_action('wp_head', 'add_ie_html5_shim');
  * Support for editor styles
  */
  add_editor_style();
+
+/* enqueue dashicons for front-end */
+	add_action( 'wp_enqueue_scripts', 'load_dashicons_front' );
+		function load_dashicons_front() {
+		wp_enqueue_style( 'dashicons' );
+}
