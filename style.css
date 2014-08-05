@@ -64,6 +64,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 }
 html {
+	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
 	overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
 	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
 	-ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
@@ -130,7 +131,7 @@ textarea {
 	color: #404040;
 	font-family: sans-serif;
 	font-size: 16px;
-	font-size: 1rem;
+	font-size: 1.6rem;
 	line-height: 1.5;
 }
 .drop-cap:first-letter {
@@ -155,41 +156,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
 	font-size: 48px;
-	font-size: 3rem;
+	font-size: 4.8rem;
 	line-height: 1.4;
 	margin-bottom: .5em;
 }
 
 h2 {
 	font-size: 36px;
-	font-size: 2.25rem;
+	font-size: 3.6rem;
 	line-height: 1.4;
 	margin-bottom: .5em;
 }
 
 h3 {
 	font-size: 24px;
-	font-size: 1.5rem;
+	font-size: 2.4rem;
 	line-height: 1.4;
 	margin-bottom: .5em;
 }
 
 h4 {
 	font-size: 18px;
-	font-size: 1.125rem;
+	font-size: 1.8rem;
 	margin-bottom: .5em;
 }
 
 h5 {
 	font-size: 16px;
-	font-size: 1rem;
+	font-size: 1.6rem;
 	font-weight: bold;
 	margin-bottom: .5em;
 	}
 
 h6 {
 	font-size: 16px;
-	font-size: 1rem;
+	font-size: 1.6rem;
 	margin-bottom: .5em;
 }
 p {
@@ -211,7 +212,7 @@ pre {
 	background: #eee;
 	font-family: "Courier 10 Pitch", Courier, monospace;
 	font-size: 15px;
-	font-size: 0.9375rem;
+	font-size: 1.5rem;
 	line-height: 1.6;
 	margin-bottom: 1.6em;
 	max-width: 100%;
@@ -318,7 +319,7 @@ input[type="submit"] {
 	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
 	-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
 	font-size: 12px;
-	font-size: .75rem;
+	font-size: 1.2rem;
 	line-height: 1;
 	padding: .6em 1em .4em;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
