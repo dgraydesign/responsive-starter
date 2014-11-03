@@ -28,7 +28,7 @@
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<h1 class="menu-toggle"><div class="dashicons dashicons-menu"></div> <?php _e( 'Menu', 'dgraystarter' ); ?></h1>
+			<h1 class="menu-toggle"><span class="dashicons dashicons-menu"></span> <?php _e( 'Menu', 'dgraystarter' ); ?></h1>
 			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'dgraystarter' ); ?></a>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>

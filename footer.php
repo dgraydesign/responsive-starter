@@ -14,7 +14,7 @@
 		<div class="c12 site-info">
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'dgraystarter' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'dgraystarter' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'dgraystarter' ), 'Responsive Starter', '<a href="http://deborahgraydesign.com" rel="designer">Deborah Gray</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s.', 'dgraystarter' ), 'Responsive Starter', '<a href="http://deborahgraydesign.com">Deborah Gray</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
