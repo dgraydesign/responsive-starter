@@ -12,6 +12,8 @@ The modifications:
 * enabled custom header image (in functions.php)
 * added html5 shiv for IE8 support (enqueued in functions.php)
 * added gallery styles (from Twenty Fourteen theme) for WordPress galleries
+* added better bulleted list styles (requires bullet.gif in img directory)
+* Altered font sizing to eliminate 62.5% size on html
 
 More about the theme from _s documentation:
 
