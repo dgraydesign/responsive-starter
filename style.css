@@ -262,7 +262,7 @@ hr {
 	margin-bottom: 1.5em;
 }
 ul, ol {
-	margin: 0 0 1.5em 3em;
+	margin: 0 0 1em 1em;
 }
 ul {
 	list-style: disc;
@@ -557,6 +557,7 @@ a:active {
 	clear: both;
 	display: block;
 	margin: 0 auto;
+    margin-bottom: 1.2em;
 }
 
 /*--------------------------------------------------------------
@@ -610,6 +611,15 @@ a:active {
 /*--------------------------------------------------------------
 10.0 Content
 --------------------------------------------------------------*/
+
+#primary ul li, #secondary ul li {
+	list-style-type: none;
+	background: url('img/bullet.gif') no-repeat left 9px;
+	padding-left: 20px;
+	line-height: 1.4;
+	padding-bottom: 7px;
+	}
+
 /*--------------------------------------------------------------
 10.1 Posts and pages
 --------------------------------------------------------------*/
