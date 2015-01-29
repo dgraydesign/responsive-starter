@@ -606,6 +606,9 @@ a:active {
 .widget_search .search-submit {
 	display: none;
 }
+.error404 .search-form {
+    margin-bottom: 30px;
+}
 
 /*--------------------------------------------------------------
 10.0 Content
