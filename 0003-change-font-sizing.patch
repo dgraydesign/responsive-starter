@@ -1,0 +1,108 @@
+From a4661b7087fcafe5be97b65b27ecc62771e30d38 Mon Sep 17 00:00:00 2001
+From: Debbie Gray <dgray@deborahgraydesign.com>
+Date: Tue, 13 Jan 2015 16:14:02 -0800
+Subject: [PATCH 3/3] change font sizing
+
+Sets font size to 100% rather than the 62.5% which had been used to
+enable a base of 10 for font sizes.
+---
+ style.css | 31 ++++++++++++++++---------------
+ 1 file changed, 16 insertions(+), 15 deletions(-)
+
+diff --git a/style.css b/style.css
+index 3ddb750..43b38fc 100644
+--- a/style.css
++++ b/style.css
+@@ -64,10 +64,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
+ 	vertical-align: baseline;
+ }
+ html {
+-	font-size: 62.5%; /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
++    font-family: sans-serif;
+ 	overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
+-	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+-	-ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
++	-webkit-text-size-adjust: 100%;
++	-ms-text-size-adjust:     100%;
+ }
+ *,
+ *:before,
+@@ -131,7 +131,7 @@ textarea {
+ 	color: #404040;
+ 	font-family: sans-serif;
+ 	font-size: 16px;
+-	font-size: 1.6rem;
++	font-size: 1rem;
+ 	line-height: 1.5;
+ }
+ .drop-cap:first-letter {
+@@ -155,29 +155,30 @@ h1, h2, h3, h4, h5, h6 {
+ 	font-weight: normal;
+ }
+ h1 {
+-	font-size: 48px;
+-	font-size: 4.8rem;
++	font-size: 30px;
++	font-size: 1.875rem;
++    font-weight: 300;
+ 	line-height: 1.4;
+ 	margin-bottom: .5em;
+ }
+ 
+ h2 {
+-	font-size: 36px;
+-	font-size: 3.6rem;
++    font-size: 28px;
++	font-size: 1.75rem;
+ 	line-height: 1.4;
+ 	margin-bottom: .5em;
+ }
+ 
+ h3 {
+ 	font-size: 24px;
+-	font-size: 2.4rem;
+-	line-height: 1.4;
++	font-size: 1.5rem;
++	line-height: 1.2;
+ 	margin-bottom: .5em;
+ }
+ 
+ h4 {
+ 	font-size: 18px;
+-	font-size: 1.8rem;
++	font-size: 1.125rem;
+ 	margin-bottom: .5em;
+ }
+ 
+@@ -190,7 +191,7 @@ h5 {
+ 
+ h6 {
+ 	font-size: 16px;
+-	font-size: 1.6rem;
++	font-size: 1rem;
+ 	margin-bottom: .5em;
+ }
+ p {
+@@ -212,8 +213,8 @@ pre {
+ 	background: #eee;
+ 	font-family: "Courier 10 Pitch", Courier, monospace;
+ 	font-size: 15px;
+-	font-size: 1.5rem;
+-	line-height: 1.6;
++	font-size: .9375rem;
++    line-height: 1.6;
+ 	margin-bottom: 1.6em;
+ 	max-width: 100%;
+ 	overflow: auto;
+@@ -319,7 +320,7 @@ input[type="submit"] {
+ 	cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
+ 	-webkit-appearance: button; /* Corrects inability to style clickable 'input' types in iOS */
+ 	font-size: 12px;
+-	font-size: 1.2rem;
++	font-size: .75rem;
+ 	line-height: 1;
+ 	padding: .6em 1em .4em;
+ 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+-- 
+1.9.5.github.0
+

@@ -415,7 +415,6 @@ a:active {
 --------------------------------------------------------------*/
 .main-navigation {
 	clear: both;
-	display: block;
 	float: left;
 	width: 100%;
 }
@@ -435,14 +434,15 @@ a:active {
 }
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	display: none;
 	float: left;
+	left: 0;
 	position: absolute;
 	top: 1.5em;
-	left: -999em;
 	z-index: 99999;
 }
 .main-navigation ul ul ul {
-	left: -999em;
+	left: 100%;
 	top: 0;
 }
 .main-navigation ul ul a {
@@ -457,15 +457,10 @@ a:active {
 .main-navigation ul ul a:hover {
 }
 .main-navigation ul li:hover > ul {
-	left: auto;
+	display: block;
 }
-.main-navigation ul ul li:hover > ul {
-	left: 100%;
-}
-
-.main-navigation .current_page_item > a,
-.main-navigation .current-menu-item > a,
-.main-navigation .current_page_ancestor > a {
+.main-navigation .current_page_item a,
+.main-navigation .current-menu-item a {
 }
 /* Small menu */
 .menu-toggle {
@@ -515,13 +510,10 @@ a:active {
 /*--------------------------------------------------------------
 6.0 Accessibility
 --------------------------------------------------------------*/
-/* Text meant only for screen readers. */
+/* Text meant only for screen readers */
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);
 	position: absolute !important;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
 }
 
 .screen-reader-text:hover,
@@ -534,7 +526,6 @@ a:active {
 	color: #21759b;
 	display: block;
 	font-size: 14px;
-	font-size: 0.875rem;
 	font-weight: bold;
 	height: auto;
 	left: 5px;
@@ -543,7 +534,7 @@ a:active {
 	text-decoration: none;
 	top: 5px;
 	width: auto;
-	z-index: 100000; /* Above WP toolbar. */
+	z-index: 100000; /* Above WP toolbar */
 }
 
 /*--------------------------------------------------------------

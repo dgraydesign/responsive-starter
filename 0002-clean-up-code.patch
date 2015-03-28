@@ -1,0 +1,30 @@
+From c37870184962f11c08eb3f4abe1e5f9999386027 Mon Sep 17 00:00:00 2001
+From: Debbie Gray <dgray@deborahgraydesign.com>
+Date: Tue, 13 Jan 2015 15:02:25 -0800
+Subject: [PATCH 2/3] clean up code
+
+Just some code layout clean up
+---
+ header.php | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+ mode change 100755 => 100644 header.php
+
+diff --git a/header.php b/header.php
+old mode 100755
+new mode 100644
+index 8b029e2..b4b6285
+--- a/header.php
++++ b/header.php
+@@ -6,7 +6,8 @@
+  *
+  * @package Responsive Starter
+  */
+-?><!DOCTYPE html>
++?>
++<!DOCTYPE html>
+ <html <?php language_attributes(); ?>>
+ <head>
+ <meta charset="<?php bloginfo( 'charset' ); ?>">
+-- 
+1.9.5.github.0
+
