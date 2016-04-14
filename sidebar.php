@@ -16,5 +16,4 @@
 				<?php get_search_form(); ?>
 			</aside>
 
-		<?php endif; // end sidebar widget area ?>
 	</div><!-- #secondary -->
