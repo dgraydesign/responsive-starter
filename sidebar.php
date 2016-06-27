@@ -12,8 +12,4 @@
 			</div><!-- .widget-area -->
 		<?php endif; ?>
 
-			<aside id="search" class="widget widget_search">
-				<?php get_search_form(); ?>
-			</aside>
-
 	</div><!-- #secondary -->
