@@ -96,6 +96,17 @@ function dgraystarter_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'dgraystarter_scripts' );
 
+/* enqueue fonts */
+function dg_google_fonts() {
+	$query_args = array(
+		'family' => 'Open+Sans:400,700|Oswald:700'
+		'subset' => 'latin,latin-ext',
+	);
+	wp_register_style( 'dg_google_fonts', add_query_arg( $query_args, "//fonts.googleapis.com/css" ), array(), null );
+            }
+            
+add_action('wp_enqueue_scripts', 'dg_google_fonts');
+
 /**
  * Implement the Custom Header feature.
  */
