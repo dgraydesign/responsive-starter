@@ -110,8 +110,8 @@ q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 }
-a:focus {
-	outline: thin dotted;
+a, a:focus {
+	outline: 0;
 }
 a:hover,
 a:active {
