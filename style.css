@@ -377,15 +377,15 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: #ccc;
 }
 a:visited {
-	color: purple;
+	color: #333;
 }
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: #ccc;
 }
 
 /*--------------------------------------------------------------
